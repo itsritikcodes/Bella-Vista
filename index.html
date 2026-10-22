@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bella Vista- Authentic Italian Restaurant,"
+
+    <title>Bella Vista Restaurant - Authentic Italian Cuisine</title>
+    <link rel="stylesheet" href="Style-4.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Bella Vista</h1>
+                    <span class="tagline">Authentic Italian Cuisine</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Bella Vista</h2>
+                <p>Experience the authentic taste of Italy in the heart of the city</p>
+                <div class="hero-button">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#contact" class="btn btn-secondary">Make a Reservation</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">OUR MENU</h2>
+                <p class="section-subtitle">Discover our carefully crafted dishes </p>
+
+                <div class="menu-categories">
+                    <div class="menu-subcategories">
+                        <h3>Appertizers</h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Brushetta Itailiana</h4>
+                                    <p>Fresh tomatos,Basil and mozeralla on toasted bread.</p>
+                                </div>
+                                <span class="price">$12</span>
+                            </div>
+                            <div class="menu-item">
+                                <div class="menu-item-info">
+                                    <h4>Pizza</h4>
+                                    <p>Fresh tomatos,Basil,panner,capsicum and some toping.</p>
+                                </div>
+                                <span class="price">$18</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Bella Vista</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Welcome to Bella Vista Restaurant, where great food and warm hospitality come together to create unforgettable dining experiences. We are passionate about serving freshly prepared dishes made with high-quality ingredients, offering a perfect blend of traditional flavors and modern cuisine. Whether you're joining us for a family dinner, a romantic evening, or a celebration with friends, our cozy atmosphere and attentive service ensure every visit is special. At Bella Vista, we believe that every meal should be a memorable experience, and we look forward to welcoming you with delicious food and exceptional service.</p><br>
+
+                    </div>
+                    <div class="about-image">
+                    <img src="https://img.magnific.com/free-photo/happy-waiter-serving-food-group-cheerful-friends-pub_637285-12525.jpg?semt=ais_hybrid&w=740&q=80" alt="Restaurant image">
+                </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+
+                        <div class="contact-item">
+                            <strong>Address:</strong>
+                            <p>V-113 Sector-12,Noida</p>
+                        </div>
+
+                         <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <p>9266344262</p>
+                        </div>
+
+                         <div class="contact-item">
+                            <strong>E-mail:</strong>
+                            <p>abc@gmail.com</p>
+                        </div>
+
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Make a Reservation</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date">Reservation Date:</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time">Time:</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select time</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                </select> 
+
+                                <label for="guest">Number of Guests:</label>
+                                <select id="guest" name="guest" required>
+                                    <option value="">Select time</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select> 
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Special Requests:</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Any special request...">
+                                </textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary"> Submit Reservation</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-section">
+                    <h3>Bella Vista </h3>
+                    <p>Authentic Itailian cuisine in the heart of the city.Experience the taste of Italy in every bite.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening hours</h4>
+                    <p>Monday-Friday: 11:00AM to 10:00PM</p>
+                    <p>Saturday: 11:00AM to 11:00PM</p>
+                    <p>Sunday: 11:00AM to 9:00PM</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#facebook">Facebook</a>
+                        <a href="#ig">Instagram</a>
+                        <a href="#">YouTube</a>
+                    </div>
+
+                    
+                </div>
+            </div>
+                <div class="footer-bottom">
+                    <p>2024 Bella Vista Restaurant. All right reserved.</p>
+                </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
